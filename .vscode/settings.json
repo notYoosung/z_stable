@@ -1,0 +1,7 @@
+{
+    "Lua.diagnostics.globals": [
+        "minetest",
+        "fsc",
+        "mcl_fovapi"
+    ]
+}
