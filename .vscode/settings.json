@@ -3,6 +3,8 @@
         "minetest",
         "fsc",
         "mcl_fovapi",
-        "DIR_DELIM"
+        "DIR_DELIM",
+        "SecureRandom",
+        "player_api"
     ]
 }
