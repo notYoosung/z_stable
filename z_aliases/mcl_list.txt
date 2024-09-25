@@ -1,4 +1,3 @@
-
 3d_armor_stand:armor_entity
 __builtin:falling_node
 __builtin:item
