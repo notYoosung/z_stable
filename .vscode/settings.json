@@ -5,6 +5,8 @@
         "mcl_fovapi",
         "DIR_DELIM",
         "SecureRandom",
-        "player_api"
+        "player_api",
+        "vector",
+        "core"
     ]
 }
