@@ -8,3 +8,5 @@ local mt_materials = dofile(modpath .. "/materials/minetest.lua")
 for k, v in pairs(mt_materials) do
     minetest.register_alias(v, mcl_materials[k])
 end
+dofile(modpath .. "/tstidscanner.lua")
+dofile(modpath .. "/tstidclearance.lua")

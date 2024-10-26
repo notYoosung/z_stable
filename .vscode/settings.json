@@ -9,6 +9,11 @@
         "vector",
         "core",
         "mcl_target",
-        "mcl_throwing"
-    ]
+        "mcl_throwing",
+        "mesecon",
+        "mcl_sounds",
+        "mcl_vars"
+    ],
+    "luahelper.format.break_after_operator": false,
+    "luahelper.format.column_limit": 1000
 }
