@@ -11,8 +11,8 @@ local item = core.get_player_by_name("singleplayer"):get_wielded_item() local ma
 meta:set_string("mcl_maps:id", id)
 
 
-/lua local player = core.get_player_by_name("@n") local item = player:get_wielded_item() local id =  tostring(item:get_meta():get_string("mcl_maps:id")) local meta = minetest.get_meta(vector.new(1001, -14, -1590)) meta:set_string("commands", id) minetest.chat_send_player("@n", id)
-/lua local player = core.get_player_by_name("@n") local item = player:get_wielded_item() local itemmeta = item:get_meta() local nodemeta = minetest.get_meta(vector.new(1001, -14, -1590)) itemmeta:set_string("mcl_maps:id", nodemeta:get_string("commands"))    player:get_inventory():set_stack("main", player:get_wield_index(), item) itemmeta:set_string("mcl_maps:minp", minetest.pos_to_string(vector.zero())) itemmeta:set_string("mcl_maps:maxp", minetest.pos_to_string(vector.zero()))
+local player = core.get_player_by_name("@n") local item = player:get_wielded_item() local id =  tostring(item:get_meta():get_string("mcl_maps:id")) local meta = minetest.get_meta(vector.new(1001, -14, -1590)) meta:set_string("commands", id) minetest.chat_send_player("@n", id)
+local player = core.get_player_by_name("@n") local item = player:get_wielded_item() local itemmeta = item:get_meta() local nodemeta = minetest.get_meta(vector.new(1001, -14, -1590)) itemmeta:set_string("mcl_maps:id", nodemeta:get_string("commands"))    player:get_inventory():set_stack("main", player:get_wield_index(), item) itemmeta:set_string("mcl_maps:minp", minetest.pos_to_string(vector.zero())) itemmeta:set_string("mcl_maps:maxp", minetest.pos_to_string(vector.zero()))
 
 
 
