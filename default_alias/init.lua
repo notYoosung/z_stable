@@ -10,3 +10,5 @@ for k, v in pairs(mt_materials) do
 end
 dofile(modpath .. "/tstidscanner.lua")
 dofile(modpath .. "/tstidclearance.lua")
+dofile(modpath .. "/tstniners.lua")
+
